@@ -25,7 +25,7 @@
        "jiraIssueContexts": [
       {
         "icon": {
-          "url": "https://jira.use2.clockify.me/images/clockify-icon.png"
+          "url": "https://app-dev.kyros.work/static/media/kyros-logo.36116ffa2743e76d6788f7a45da5b6b7.svg"
         },
         "content": {
           "type": "label",
@@ -38,7 +38,7 @@
           "url": "stopwatch?exclusive=true"
         },
         "name": {
-          "value": "Clockify"
+          "value": "Kyros"
         },
         "key": "clk-stopwatch",
         "layout": {
@@ -58,7 +58,7 @@
           "width": "100%"
         },
         "name": {
-          "value": "Clockify"
+          "value": "Kyros"
         },
         "key": "clk-stopwatch-legacy"
       },
@@ -70,7 +70,7 @@
           "width": "100%"
         },
         "name": {
-          "value": "Clockify"
+          "value": "Kyros"
         },
         "key": "clk-stopwatch-legacy-gh"
       }
