@@ -22,29 +22,58 @@
                 }
             }
         ],
-        "webPanels": [
-            {
-                "url": "/index.html",
-                "key": "example-issue-left-panel",
-                "location": "atl.jira.view.issue.left.context",
-                "name": {
-                    "value": "KYROS LEFT TESTING"
-                }                            
-            },
-            {
-                "url": "/index.html" ,
-                "key": "example-issue-right-panel",
-                "location": "atl.jira.view.issue.right.context",
-                "layout": {
-                     "width": "10px",
-                      "height": "100%"
-                        },
-                     "weight": 50,
-                     "supportsNative": false,
-                "name": {
-                    "value": "App panel location right side title"
-                }                          
-            }
-        ]
+       "jiraIssueContexts": [
+      {
+        "icon": {
+          "url": "https://jira.use2.clockify.me/images/clockify-icon.png"
+        },
+        "content": {
+          "type": "label",
+          "label": {
+            "value": "Start / Stop"
+          }
+        },
+        "target": {
+          "type": "web_panel",
+          "url": "stopwatch?exclusive=true"
+        },
+        "name": {
+          "value": "Clockify"
+        },
+        "key": "clk-stopwatch",
+        "layout": {
+          "top": "0px",
+          "width": "100%",
+          "height": "100%"
+        },
+        "jiraNativeAppsEnabled": true
+      }
+    ],
+    "webPanels": [
+      {
+        "url": "stopwatch",
+        "location": "atl.jira.view.issue.right.context",
+        "layout": {
+          "height": "100%",
+          "width": "100%"
+        },
+        "name": {
+          "value": "Clockify"
+        },
+        "key": "clk-stopwatch-legacy"
+      },
+      {
+        "url": "stopwatch",
+        "location": "atl.gh.issue.details.tab",
+        "layout": {
+          "height": "100%",
+          "width": "100%"
+        },
+        "name": {
+          "value": "Clockify"
+        },
+        "key": "clk-stopwatch-legacy-gh"
+      }
+    ]
     }
 }
