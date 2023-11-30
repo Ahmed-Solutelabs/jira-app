@@ -2,10 +2,10 @@
     "name": "Hello KYROS TEAM",
     "description": "Atlassian Connect app",
     "key": "com.example.myapp",
-    "baseUrl": "https://atlassian-test.vercel.app",
+    "baseUrl": "https://jira-app-inky.vercel.app/",
     "vendor": {
         "name": "Example, Inc.",
-        "url": "https://atlassian-test.vercel.app"
+        "url": "https://jira-app-inky.vercel.app/"
     },
     "authentication": {
         "type": "none"
