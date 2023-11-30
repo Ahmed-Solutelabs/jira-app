@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
         <p>Ahmed kazi</p>
-        <button>Add+</button>
+        <button onClick={() => console.log('clicked')}>Add+</button>
     </div>
   );
 }
