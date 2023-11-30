@@ -35,6 +35,12 @@
                 "url": "/index.html" ,
                 "key": "example-issue-right-panel",
                 "location": "atl.jira.view.issue.right.context",
+                "layout": {
+                     "width": "10px",
+                      "height": "100%"
+                        },
+                     "weight": 50,
+                     "supportsNative": false,
                 "name": {
                     "value": "App panel location right side title"
                 }                          
