@@ -1,0 +1,44 @@
+{
+    "name": "Hello KYROS TEAM",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "baseUrl": "https://atlassian-test.vercel.app",
+    "vendor": {
+        "name": "Example, Inc.",
+        "url": "https://atlassian-test.vercel.app"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [
+            {
+                "url": "/index.html",
+                "key": "hello-world",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "KYROS TESTING"
+                }
+            }
+        ],
+        "webPanels": [
+            {
+                "url": "/index.html",
+                "key": "example-issue-left-panel",
+                "location": "atl.jira.view.issue.left.context",
+                "name": {
+                    "value": "KYROS LEFT TESTING"
+                }                            
+            },
+            {
+                "url": "/index.html" ,
+                "key": "example-issue-right-panel",
+                "location": "atl.jira.view.issue.right.context",
+                "name": {
+                    "value": "App panel location right side title"
+                }                          
+            }
+        ]
+    }
+}
