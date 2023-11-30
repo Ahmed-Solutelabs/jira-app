@@ -14,7 +14,7 @@
     "modules": {
         "generalPages": [
             {
-                "url": "/public/index.html",
+                "url": "index.html",
                 "key": "hello-world",
                 "location": "system.top.navigation.bar",
                 "name": {
@@ -24,7 +24,7 @@
         ],
         "webPanels": [
             {
-                "url": "/public/index.html",
+                "url": "index.html",
                 "key": "example-issue-left-panel",
                 "location": "atl.jira.view.issue.left.context",
                 "name": {
@@ -32,7 +32,7 @@
                 }                            
             },
             {
-                "url": "/public/index.html" ,
+                "url": "index.html" ,
                 "key": "example-issue-right-panel",
                 "location": "atl.jira.view.issue.right.context",
                 "name": {
