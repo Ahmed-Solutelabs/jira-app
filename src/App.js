@@ -12,6 +12,7 @@ function App() {
   } else {
     issueID = url[url.length - 1];
   }
+  console.log(url);
 
   return (
     <div className="App">
