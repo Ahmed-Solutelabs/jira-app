@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let a = window.top;
+  console.log(a);
   return (
     <div className="App">
         <p>Ahmed kazi</p>
