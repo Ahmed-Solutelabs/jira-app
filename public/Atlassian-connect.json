@@ -1,27 +1,28 @@
 {
-  "name": "Hello KYROS TEAM",
-  "description": "Atlassian Connect app",
-  "key": "com.example.myapp",
-  "baseUrl": "https://jira-app-inky.vercel.app/",
-  "vendor": {
-    "name": "Example, Inc.",
-    "url": "https://jira-app-inky.vercel.app/"
-  },
-  "authentication": { "type": "jwt" },
-  "lifecycle": { "installed": "/installed" },
-  "apiVersion": 1,
-  "modules": {
-    "generalPages": [
-      {
-        "url": "/index.html",
-        "key": "hello-world",
-        "location": "system.top.navigation.bar",
-        "name": {
-          "value": "KYROS TESTING"
-        }
-      }
-    ],
-    "jiraIssueContexts": [
+    "name": "Hello KYROS TEAM",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "baseUrl": "https://jira-app-inky.vercel.app/",
+    "vendor": {
+        "name": "Example, Inc.",
+        "url": "https://jira-app-inky.vercel.app/"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [
+            {
+                "url": "/index.html",
+                "key": "hello-world",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "KYROS TESTING"
+                }
+            }
+        ],
+       "jiraIssueContexts": [
       {
         "icon": {
           "url": "https://app-dev.kyros.work/static/media/kyros-logo.36116ffa2743e76d6788f7a45da5b6b7.svg"
@@ -74,5 +75,5 @@
         "key": "clk-stopwatch-legacy-gh"
       }
     ]
-  }
+    }
 }
