@@ -12,14 +12,6 @@ function App() {
   } else {
     issueID = url[url.length - 1];
   }
- // Get the top-level window object
-const topLevelWindow = window.top;
-
-// Get the URL of the top-level page
-const topLevelUrl = topLevelWindow.location.href;
-
-// Now, topLevelUrl contains the URL of the top-level page
-console.log("Top-level URL:", topLevelUrl);
 
 
   return (
