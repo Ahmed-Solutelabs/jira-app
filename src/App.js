@@ -2,16 +2,16 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const url = window.location.href.split("/");
-  const domainName = url[2];
-  let issueID = "";
+  // const url = window.location.href.split("/");
+  // const domainName = url[2];
+  // let issueID = "";
 
-  const searchParams = new URLSearchParams(window.location.search);
-  if (searchParams.has("selectedIssue")) {
-    issueID = searchParams.get("selectedIssue");
-  } else {
-    issueID = url[url.length - 1];
-  }
+  // const searchParams = new URLSearchParams(window.location.search);
+  // if (searchParams.has("selectedIssue")) {
+  //   issueID = searchParams.get("selectedIssue");
+  // } else {
+  //   issueID = url[url.length - 1];
+  // }
 
 
   return (
@@ -20,7 +20,7 @@ function App() {
       <button
         onClick={() =>
           fetch(
-            `https://${domainName}.atlassian.net/rest/api/3/issue/${issueID}`,
+            `https://dhruvbabariya.atlassian.net/rest/api/3/issue/DHRUV-1`,
             {
               method: "GET",
               headers: {
