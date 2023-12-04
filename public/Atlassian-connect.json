@@ -8,9 +8,7 @@
     "url": "https://jira-app-inky.vercel.app/"
   },
   "authentication": { "type": "jwt" },
-  "apiMigrations": { "context-qsh": true, "signed-install": true },
   "lifecycle": { "installed": "/installed" },
-  "scopes": ["READ", "WRITE", "DELETE", "ACT_AS_USER"],
   "apiVersion": 1,
   "modules": {
     "generalPages": [
