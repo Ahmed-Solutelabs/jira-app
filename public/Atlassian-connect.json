@@ -8,7 +8,7 @@
         "url": "https://jira-app-inky.vercel.app/"
     },
     "authentication": {
-        "type": "jwt"
+        "type": "none"
     },
     "apiVersion": 1,
     "modules": {
